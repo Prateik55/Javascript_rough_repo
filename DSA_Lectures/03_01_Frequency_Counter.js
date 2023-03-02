@@ -1,8 +1,13 @@
 // ! A function called "same" which accepts to arrays and the function should return true if every value in the array has its corresponding values squared in the second array.So in the first array there's a bunch of values and we want to know if the second array has the exact same values but squared. But the order doesn't matter. So it doesn't have to be identical, just squared.It can be mixed up, but the frequency of values must be the same. For Example Same({1,2,3} {1,4,9}) \\\True
 
+// https://pratix.notion.site/DSA-12138c63a2c34ede8b523ccb82849b96
+
 arr1=[1,2,3];
 arr2=[1,4,9];
 
+
+arr1=[1,2,3];
+arr2=[1,4,9];
 
 function same(arr1, arr2){
  if (arr1.length!==arr2.length){
@@ -29,4 +34,5 @@ function same(arr1, arr2){
  }
 return true
 }
+
 same(arr1,arr2);
