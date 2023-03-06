@@ -1,4 +1,6 @@
+//! Write a function called sumZero, which accepts a sorted array of integers. The function should find the first pair where the sum is 0. Return an array that includes both values that sum to zero or undefined if a pair does not exists.
 
+// explanation https://www.notion.so/pratix/DSA-12138c63a2c34ede8b523ccb82849b96?pvs=4#615218c7202646ae8c02642913bd02cf
 
 let arr2=[];
 function sumZero(arr){
