@@ -20,10 +20,12 @@
 // }
 // }
 
+// As it is not explicitely told that we cannot manipulate the given array
+
 function countUniqueValues(arr) {
     if (arr.length===0) return 0;
     let i =0;
-    let j =0;
+    let j =1;
    while(j<=(arr.length-1)){
     if (arr[i]!==arr[j]){
         i++;
