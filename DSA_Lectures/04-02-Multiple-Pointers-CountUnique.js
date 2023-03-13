@@ -1,0 +1,35 @@
+
+// ! Count unique values in the array 
+
+
+// function countUniqueValues(arr){
+// arr.sort((a,b)=>a-b);
+// let left=0;
+// let  right = arr.length-1;
+// let arr2=[];
+
+// while (left < right){ 
+//  if (arr[left]===arr[right]){
+//   right--;
+// }else if( arr[left]!==arr[right]) {
+//  left ++;
+// } else {
+//  arr2.push(arr[left]);
+//  console.log(arr2)
+//  }
+// }
+// }
+
+function countUniqueValues(arr) {
+    if (arr.length===0) return 0;
+    let i =0;
+    let j =0;
+   while(j<=(arr.length-1)){
+    if (arr[i]!==arr[j]){
+        i++;
+        arr[i]=arr[j]
+    }
+    j++;
+   }
+    return i+1;
+  }
