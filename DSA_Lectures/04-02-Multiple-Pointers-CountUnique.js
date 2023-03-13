@@ -35,3 +35,13 @@ function countUniqueValues(arr) {
    }
     return i+1;
   }
+
+//   ==================SOLUTION BY FREQUENCY COUNTER============
+
+function countUniqueFreq(arr){
+    let result = {};
+    for(var element of arr){
+        result[element] = (result[element] + 1) || 1;
+    }
+    return Object.keys(result).length;
+}
