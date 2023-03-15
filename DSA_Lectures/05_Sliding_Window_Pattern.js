@@ -1,6 +1,6 @@
 // !Write a function called maxSubarraySum which accepts an array of integers and a number called n. The function should calculate the maximum sum of n consecutive elements in the array.
 
-//  First solution by using reinterating again and again -- Not efficient 
+//  First solution by using reinterating again and again -- Not efficient  
 
 function maxSubarraySum(arr,num){
     if ( num > arr.length){
